@@ -33,21 +33,18 @@ export function GalleryCard(){
               <img src="/questionMark.png" className="h-[24px] w-[24px] object-contain" />
               <img src="/menuRectangle.png" className="h-[24px] w-[24px] object-contain" />
             </div>
+
             <div>
             
-            <NavBar listItems={["Gallery"]}/>
+              <NavBar listItems={["Gallery"]}/>
              
-              <div className=" flex flex-col justify-center py-5">
-                  <p className=" text-[#969696] h-[130px] overflow-y-scroll px-2">
-                     Hello! I’m Dave, your sales rep here from Salesforce.I’ve been working at this awesome company for 3 years now.
-                     I was born and raised in Albany, NY& have been living in Santa Carla for the past 10 years my wife Tiffany and my 4 year old twin daughters- Emma and Ella. Both of them are just starting school, so my calender is usually blocked between 9-10 AM. This is a...
-                     I was born and raised in Albany, NY& have been living in Santa Carla for the past 10 years my wife Tiffany and my 4 year old twin daughters- Emma and Ella. Both of them are just starting school, so my calender is usually blocked between 9-10 AM. This is a...
-                     I was born and raised in Albany, NY& have been living in Santa Carla for the past 10 years my wife Tiffany and my 4 year old twin daughters- Emma and Ella. Both of them are just starting school, so my calender is usually blocked between 9-10 AM. This is a...
-                  </p>
+              <div className="w-full  gap-2 flex justify-evenly py-5 px-2">
+                   <div className="h-20 w-20 bg-amber-400"/> 
+                   <div className="h-20 w-20 bg-amber-400"/> 
+                   <div className="h-20 w-20 bg-amber-400"/>
+                   <div className="h-20 w-20 bg-amber-400"/>
               </div>
-
             </div>
-
         </div>
     )
 }
