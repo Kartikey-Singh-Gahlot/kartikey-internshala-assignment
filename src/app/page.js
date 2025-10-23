@@ -1,5 +1,6 @@
-import BasicCard from "./basicCard.js";
-import GalleryCard from "./galleryCard.js";
+import {BasicCard, GalleryCard} from "./cards.js";
+import {UnderLineBar} from "./underLineBar.js";
+import {TextBox} from "./textBox.js";
 
 export default function Home() {
   return (
@@ -7,26 +8,19 @@ export default function Home() {
       
       <section className=" flex w-full h-full">
 
-        <div className="h-full w-full bg-[#575858] border border-[#96BEE7] box-border rounded-[20px]">
-
-        </div>
+        <TextBox/>
 
         <div className="px-[57px] h-full w-full flex flex-col  box-border">
 
           <BasicCard/>
-
-          <div className=" flex justify-center py-[17px] px-[54px]">
-            <hr className="border-[3px] w-full rounded-[3px] border-[#353B41] drop-shadow-[0px_2px_1px_black]" />
-          </div>
-
+          <UnderLineBar/>
           <GalleryCard/>
-
-          <div className=" flex justify-center pt-[17px] px-[54px]">
-            <hr className="border-[3px] w-full rounded-[3px]  border-[#353B41] drop-shadow-[0px_2px_1px_black]" />
-          </div>
+          <UnderLineBar/>
 
         </div>
+        
       </section>
+
     </main>
   );
 }
