@@ -36,7 +36,9 @@ export function GalleryCard(){
 
             <div>
             
-              <NavBar listItems={["Gallery"]}/>
+              <nav className="relative flex w-fit gap-3 rounded-[20px] bg-[#171717] text-amber-50 p-1 box-border">
+                  <button className="relative z-10 w-full text-center py-[10] px-12 text-nowrap border border-[#ffffff00] rounded-[20px]  cursor-pointer">Gallery</button>
+              </nav>
              
               <div className="w-full  gap-2 flex justify-evenly py-5 px-2">
                    <div className="h-20 w-20 bg-amber-400"/> 
