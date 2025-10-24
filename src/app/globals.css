@@ -38,7 +38,7 @@ li::before{
   z-index: 0;
 }
 
-li:hover::before{
+li:not(.active):hover::before{
   width:100%;
 }
 

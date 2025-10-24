@@ -17,7 +17,7 @@ export function NavBar({listItems}){
     }
 
     const liItems = listItems.map((i, idx)=>{ 
-        return  <li  key={idx} className={`relative z-10 w-full text-center py-[10] px-13 text-nowrap border border-[#ffffff00] rounded-[20px]  cursor-pointer transition-all duration-200`} onClick={()=>{ trgrActive(idx)}}>{i}</li>}
+        return  <li  key={idx} className={`relative z-10 w-full text-center py-[10] px-13 text-nowrap border border-[#ffffff00] rounded-[20px]  cursor-pointer transition-all duration-200 ${(activeTab==idx)?"active":""} `} onClick={(e)=>{ e.stopPropagation(); trgrActive(idx)}}>{i}</li>}
     );
 
     return(
