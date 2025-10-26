@@ -48,7 +48,3 @@ This assignment helped me gain deeper insights into real-world frontend developm
 
 ---
 
-### 📧 Contact
-**Name:** Kartikey Singh Gehlot  
-**Email:** [kartikeygehlot2328@gmail.com](mailto:kartikeygehlot2328@gmail.com)  
-**LinkedIn:** [linkedin.com/in/kartikey-singh-gehlot](https://linkedin.com/in/kartikey-singh-gehlot)
