@@ -38,7 +38,7 @@ export function GalleryCard(){
               <img src="/menuRectangle.png" className="h-[24px] w-[24px] object-contain" />
             </div>
 
-            <ImageFrames images={["/galleryThumbnail.png"]} />
+            <ImageFrames images={["/galleryThumbnail.png","/galleryThumbnail.png"]} />
               
         </div>
     )
