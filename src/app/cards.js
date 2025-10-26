@@ -4,13 +4,13 @@ import ImageFrames from "./imageFrames.js";
 
 export function BasicCard(){
     return(
-        <div className="flex bg-[#363C43]  box-border rounded-[18.89px] shadow-[5.67px_5.67px_3.78px_0px_#00000066] px-2 py-2">
+        <div className="flex bg-[#363C43]  box-border rounded-[18.89px] shadow-[5.67px_5.67px_3.78px_0px_#00000066] px-2 ">
             <div className="h-full w-[24px] flex flex-col gap-[80px] py-2 shrink-0 m-1">
               <img src="/questionMark.png" className="h-[24px] w-[24px] object-contain" />
               <img src="/menuRectangle.png" className="h-[24px] w-[24px] object-contain" />
             </div>
 
-            <div className="w-full px-3 m-1">
+            <div className="w-full px-3 box-border py-3 m-1">
              
                <NavBar listItems={["About Me", "Experiences", "Recommended"]}/>
 
