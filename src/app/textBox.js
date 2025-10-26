@@ -1,7 +1,9 @@
 export function TextBox(){
     return(
-        <div className="h-full w-full bg-[#575858] border border-[#96BEE7] box-border rounded-[20px]">
-
+        <div className="bg-[#575858] rounded-[27px] h-[85vh] w-full flex items-center border-[#96BEE7]  box-border border justify-center box-border">
+              <h1>
+                lorem ipsum
+              </h1>
         </div>
     );
 }
