@@ -40,7 +40,7 @@ export function GalleryCard(){
 
             
              
-            <ImageFrames images={["/galleryThumbnail.png","/galleryThumbnail.png","/galleryThumbnail.png","/galleryThumbnail.png","/galleryThumbnail.png","/galleryThumbnail.png","/galleryThumbnail.png"]} />
+            <ImageFrames images={["/galleryThumbnail.png"]} />
               
         </div>
     )
